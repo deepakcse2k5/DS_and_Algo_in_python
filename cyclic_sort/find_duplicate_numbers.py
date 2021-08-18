@@ -3,6 +3,7 @@
 
 
 nums = [1,4,4,3,3,5]
+nums1 = [2,4,4,1,4]
 
 def find_duplicate_number(nums):
     i = 0
@@ -23,4 +24,4 @@ def find_duplicate_number(nums):
 
 
 
-print(find_duplicate_number(nums))
+print(find_duplicate_number(nums1))
