@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 16,
+    "python.analysis.extraPaths": [
+        "./Sliding_window_problem",
+        "./code/Sliding_window_problem"
+    ]
+}
