@@ -2,7 +2,7 @@ exp = "12 - (6 + 2) + 5"
 
 
 def basic_calc(exp):
-    exp = exp.replace(" ","")
+    exp = exp.replace(" ", "")
     stack = []
     current_num = 0
     sign = 1
@@ -28,4 +28,11 @@ def basic_calc(exp):
     result += sign * current_num
     return result
 
+
 print(basic_calc(exp))
+
+# Time complexity
+# The time complexity of this solution is O(n), where n is the length of the input string.
+# Space complexity
+# The space complexity of this solution is O(n), where n is the length of the input string. This is because we use a stack to store the intermediate results and the final result.
+# The maximum space used by the stack is O(n).
